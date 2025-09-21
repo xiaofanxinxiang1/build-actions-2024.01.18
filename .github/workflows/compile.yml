@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-       target: [Immortalwrt]
+       target: [Lede]
 
     steps:
     - name: 释放Ubuntu磁盘空间
